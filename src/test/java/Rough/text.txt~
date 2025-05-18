@@ -1,0 +1,257 @@
+~\IdeaProjects\Research_Deequ git:[master]
+mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------< org.example:Research_Deequ >---------------------
+[INFO] Building Research_Deequ 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ Research_Deequ ---
+[INFO] Deleting C:\Users\TechTeam-08\IdeaProjects\Research_Deequ\target
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ Research_Deequ ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Research_Deequ ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 11] to target\classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO]
+[INFO] --- scala:4.9.5:compile (default) @ Research_Deequ ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0/doxia-sink-api-2.0.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0/doxia-sink-api-2.0.0.jar (11 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.3/maven-archiver-3.6.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.3/maven-archiver-3.6.3.jar (27 kB at 275 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.jar (54 kB at 268 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc_2.13/1.10.8/zinc_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.jar (79 kB at 285 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc_2.13/1.10.8/zinc_2.13-1.10.8.jar (86 kB at 259 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-core_2.13/1.10.8/zinc-core_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar (193 kB at 556 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-apiinfo_2.13/1.10.8/zinc-apiinfo_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar (225 kB at 627 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.10.8/compiler-bridge_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-core_2.13/1.10.8/zinc-core_2.13-1.10.8.jar (490 kB at 756 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-classpath_2.13/1.10.8/zinc-classpath_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-apiinfo_2.13/1.10.8/zinc-apiinfo_2.13-1.10.8.jar (160 kB at 202 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-classpath_2.13/1.10.8/zinc-classpath_2.13-1.10.8.jar (88 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.10.8/compiler-bridge_2.13-1.10.8.jar (266 kB at 267 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar (72 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.jar (114 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar (4.4 kB at 3.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar (6.7 MB at 3.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/0.2.0/scala-parallel-collections_2.13-0.2.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar (1.9 MB at 997 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/io_2.13/1.10.4/io_2.13-1.10.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar (5.9 MB at 2.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/0.2.0/scala-parallel-collections_2.13-0.2.0.jar (1.1 MB at 531 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-logging_2.13/1.10.7/util-logging_2.13-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar (227 kB at 102 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/collections_2.13/1.10.7/collections_2.13-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-logging_2.13/1.10.7/util-logging_2.13-1.10.7.jar (471 kB at 202 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-position_2.13/1.10.7/util-position_2.13-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/collections_2.13/1.10.7/collections_2.13-1.10.7.jar (363 kB at 152 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/core-macros_2.13/1.10.7/core-macros_2.13-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-position_2.13/1.10.7/util-position_2.13-1.10.7.jar (28 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/io_2.13/1.10.4/io_2.13-1.10.4.jar (588 kB at 241 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal-jni/3.27.1/jline-terminal-jni-3.27.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal-jni/3.27.1/jline-terminal-jni-3.27.1.jar (49 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-native/3.27.1/jline-native-3.27.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.jar (264 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-native/3.27.1/jline-native-3.27.1.jar (190 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-relation_2.13/1.10.7/util-relation_2.13-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/core-macros_2.13/1.10.7/core-macros_2.13-1.10.7.jar (86 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-persist_2.13/1.10.8/zinc-persist_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-relation_2.13/1.10.7/util-relation_2.13-1.10.7.jar (15 kB at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-compile-core_2.13/1.10.8/zinc-compile-core_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-persist_2.13/1.10.8/zinc-persist_2.13-1.10.8.jar (361 kB at 126 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-compile-core_2.13/1.10.8/zinc-compile-core_2.13-1.10.8.jar (254 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar (225 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-control_2.13/1.10.7/util-control_2.13-1.10.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.jar (90 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-classfile_2.13/1.10.8/zinc-classfile_2.13-1.10.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/util-control_2.13/1.10.7/util-control_2.13-1.10.7.jar (19 kB at 6.3 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-classfile_2.13/1.10.8/zinc-classfile_2.13-1.10.8.jar (106 kB at 34 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.jar (2.9 MB at 891 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar (3.8 MB at 1.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar (12 MB at 1.7 MB/s)
+[WARNING]  Expected all dependencies to require Scala version: 2.13.10
+[WARNING]  org.apache.spark:spark-core_2.13:3.5.5 requires scala version: 2.13.8
+[WARNING] Multiple versions of scala libraries detected!
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar (12 MB at 2.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.pom (2.5 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.pom (1.8 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.pom (18 kB at 239 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.21.0/jline-parent-3.21.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.21.0/jline-parent-3.21.0.pom (24 kB at 313 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom (2.0 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar (995 kB at 3.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (1.7 MB at 2.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar (3.7 MB at 3.1 MB/s)
+[INFO] Compiler bridge file: C:\Users\TechTeam-08\.sbt\1.0\zinc\org.scala-sbt\org.scala-sbt-compiler-bridge_2.13-1.10.8-bin_2.13.10__65.0-1.10.8_20250303T164041.jar
+[INFO] Compiler bridge file is not installed yet
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.10.8/compiler-bridge_2.13-1.10.8-sources.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.10.8/compiler-bridge_2.13-1.10.8-sources.jar (56 kB at 706 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.pom (12 kB at 162 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.jar (1.4 MB at 3.4 MB/s)
+error:
+  bad constant pool index: 0 at pos: 48462
+     while compiling: <no file>
+        during phase: globalPhase=<no phase>, enteringPhase=<some phase>
+     library version: version 2.13.10
+    compiler version: version 2.13.10
+  reconstructed args: -bootclasspath C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar -classpath C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C
+:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\TechTeam-08\.m2\repository\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\org\sc
+ala-sbt\util-interface\1.10.7\util-interface-1.10.7.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.1
+3.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-sbt\compiler-interface\1.10.8\compiler-interface-1.10.8.jar;C:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\Tec
+hTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\io\
+github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar -d C:\Users\TECHTE~1\AppData\Local\Temp\scala-maven-plugin-compiler-bridge-classes5106872382666432600
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+error: scala.reflect.internal.FatalError:
+  bad constant pool index: 0 at pos: 48462
+     while compiling: <no file>
+        during phase: globalPhase=<no phase>, enteringPhase=<some phase>
+     library version: version 2.13.10
+    compiler version: version 2.13.10
+  reconstructed args: -bootclasspath C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar -classpath C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C
+:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\TechTeam-08\.m2\repository\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\org\sc
+ala-sbt\util-interface\1.10.7\util-interface-1.10.7.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.1
+3.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-sbt\compiler-interface\1.10.8\compiler-interface-1.10.8.jar;C:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\Tec
+hTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\io\
+github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar -d C:\Users\TECHTE~1\AppData\Local\Temp\scala-maven-plugin-compiler-bridge-classes5106872382666432600
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+
+        at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+        at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+        at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool.errorBadIndex(ClassfileParser.scala:408)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool.getExternalName(ClassfileParser.scala:263)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.readParamNames$1(ClassfileParser.scala:842)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseAttribute$1(ClassfileParser.scala:848)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parseAttributes$6(ClassfileParser.scala:925)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:1497)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseMethod(ClassfileParser.scala:625)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseClass(ClassfileParser.scala:548)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$2(ClassfileParser.scala:175)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$1(ClassfileParser.scala:160)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parse(ClassfileParser.scala:143)
+        at scala.tools.nsc.symtab.SymbolLoaders$ClassfileLoader.doComplete(SymbolLoaders.scala:342)
+        at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.$anonfun$complete$2(SymbolLoaders.scala:249)
+        at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.complete(SymbolLoaders.scala:247)
+        at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1563)
+        at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1535)
+        at scala.reflect.internal.Definitions.scala$reflect$internal$Definitions$$enterNewMethod(Definitions.scala:48)
+        at scala.reflect.internal.Definitions$DefinitionsClass.String_$plus$lzycompute(Definitions.scala:1261)
+        at scala.reflect.internal.Definitions$DefinitionsClass.String_$plus(Definitions.scala:1261)
+        at scala.reflect.internal.Definitions$DefinitionsClass.syntheticCoreMethods$lzycompute(Definitions.scala:1583)
+        at scala.reflect.internal.Definitions$DefinitionsClass.syntheticCoreMethods(Definitions.scala:1565)
+        at scala.reflect.internal.Definitions$DefinitionsClass.symbolsNotPresentInBytecode$lzycompute(Definitions.scala:1596)
+        at scala.reflect.internal.Definitions$DefinitionsClass.symbolsNotPresentInBytecode(Definitions.scala:1596)
+        at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1652)
+        at scala.tools.nsc.Global$Run.<init>(Global.scala:1236)
+        at scala.tools.nsc.Driver.doCompile(Driver.scala:47)
+        at scala.tools.nsc.MainClass.doCompile(Main.scala:30)
+        at scala.tools.nsc.Driver.process(Driver.scala:68)
+        at scala.tools.nsc.Main.process(Main.scala)
+        at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at sbt.internal.inc.RawCompiler.getReporter$1(RawCompiler.scala:57)
+        at sbt.internal.inc.RawCompiler.apply(RawCompiler.scala:78)
+        at sbt_inc.CompilerBridgeFactory.getScala2CompilerBridgeJar(CompilerBridgeFactory.java:187)
+        at sbt_inc.CompilerBridgeFactory.getCompiledBridgeJar(CompilerBridgeFactory.java:60)
+        at sbt_inc.SbtIncrementalCompilers.make(SbtIncrementalCompilers.java:51)
+        at scala_maven.ScalaCompilerSupport.incrementalCompile(ScalaCompilerSupport.java:305)
+        at scala_maven.ScalaCompilerSupport.compile(ScalaCompilerSupport.java:119)
+        at scala_maven.ScalaCompilerSupport.doExecute(ScalaCompilerSupport.java:86)
+        at scala_maven.ScalaMojoSupport.execute(ScalaMojoSupport.java:310)
+        at scala_maven.ScalaCompileMojo.execute(ScalaCompileMojo.java:108)
+        at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+        at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+        at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+        at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+        at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+        at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+        at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+        at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+        at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.723 s
+[INFO] Finished at: 2025-05-18T17:29:14+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal net.alchim31.maven:scala-maven-plugin:4.9.5:compile (default) on project Research_Deequ: Execution default of goal net.alchim31.maven:scala-maven-plugin:4.9.5:compile failed.: CompileFailed -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

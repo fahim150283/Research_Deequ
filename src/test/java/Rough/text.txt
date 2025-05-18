@@ -1,0 +1,158 @@
+~\IdeaProjects\Research_Deequ git:[master]
+mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------< org.example:Research_Deequ >---------------------
+[INFO] Building Research_Deequ 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ Research_Deequ ---
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ Research_Deequ ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Research_Deequ ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 11] to target\classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO]
+[INFO] --- scala:4.9.5:compile (default) @ Research_Deequ ---
+[WARNING]  Expected all dependencies to require Scala version: 2.13.10
+[WARNING]  org.apache.spark:spark-core_2.13:3.5.5 requires scala version: 2.13.8
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] Compiler bridge file: C:\Users\TechTeam-08\.sbt\1.0\zinc\org.scala-sbt\org.scala-sbt-compiler-bridge_2.13-1.10.8-bin_2.13.10__65.0-1.10.8_20250303T164041.jar
+[INFO] Compiler bridge file is not installed yet
+error:
+  bad constant pool index: 0 at pos: 48462
+     while compiling: <no file>
+        during phase: globalPhase=<no phase>, enteringPhase=<some phase>
+     library version: version 2.13.10
+    compiler version: version 2.13.10
+  reconstructed args: -bootclasspath C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar -classpath C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C
+:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\TechTeam-08\.m2\repository\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\org\sc
+ala-sbt\util-interface\1.10.7\util-interface-1.10.7.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.1
+3.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-sbt\compiler-interface\1.10.8\compiler-interface-1.10.8.jar;C:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\Tec
+hTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\io\
+github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar -d C:\Users\TECHTE~1\AppData\Local\Temp\scala-maven-plugin-compiler-bridge-classes13551187009001806222
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+error: scala.reflect.internal.FatalError:
+  bad constant pool index: 0 at pos: 48462
+     while compiling: <no file>
+        during phase: globalPhase=<no phase>, enteringPhase=<some phase>
+     library version: version 2.13.10
+    compiler version: version 2.13.10
+  reconstructed args: -bootclasspath C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar -classpath C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C
+:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\TechTeam-08\.m2\repository\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\org\sc
+ala-sbt\util-interface\1.10.7\util-interface-1.10.7.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.1
+3.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-sbt\compiler-interface\1.10.8\compiler-interface-1.10.8.jar;C:\Users\TechTeam-08\.m2\repository\org\jline\jline\3.21.0\jline-3.21.0.jar;C:\Users\Tec
+hTeam-08\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar;C:\Users\TechTeam-08\.m2\repository\io\
+github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\TechTeam-08\.m2\repository\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar;C:\Users\TechTeam-08\.m2\repository\org\scala-lang\scala-compiler\2.13.10\scala-compiler-2.13.10.jar -d C:\Users\TECHTE~1\AppData\Local\Temp\scala-maven-plugin-compiler-bridge-classes13551187009001806222
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+
+        at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+        at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+        at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool.errorBadIndex(ClassfileParser.scala:408)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool.getExternalName(ClassfileParser.scala:263)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.readParamNames$1(ClassfileParser.scala:842)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseAttribute$1(ClassfileParser.scala:848)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parseAttributes$6(ClassfileParser.scala:925)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:1497)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseMethod(ClassfileParser.scala:625)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parseClass(ClassfileParser.scala:548)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$2(ClassfileParser.scala:175)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$1(ClassfileParser.scala:160)
+        at scala.tools.nsc.symtab.classfile.ClassfileParser.parse(ClassfileParser.scala:143)
+        at scala.tools.nsc.symtab.SymbolLoaders$ClassfileLoader.doComplete(SymbolLoaders.scala:342)
+        at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.$anonfun$complete$2(SymbolLoaders.scala:249)
+        at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.complete(SymbolLoaders.scala:247)
+        at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1563)
+        at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1535)
+        at scala.reflect.internal.Definitions.scala$reflect$internal$Definitions$$enterNewMethod(Definitions.scala:48)
+        at scala.reflect.internal.Definitions$DefinitionsClass.String_$plus$lzycompute(Definitions.scala:1261)
+        at scala.reflect.internal.Definitions$DefinitionsClass.String_$plus(Definitions.scala:1261)
+        at scala.reflect.internal.Definitions$DefinitionsClass.syntheticCoreMethods$lzycompute(Definitions.scala:1583)
+        at scala.reflect.internal.Definitions$DefinitionsClass.syntheticCoreMethods(Definitions.scala:1565)
+        at scala.reflect.internal.Definitions$DefinitionsClass.symbolsNotPresentInBytecode$lzycompute(Definitions.scala:1596)
+        at scala.reflect.internal.Definitions$DefinitionsClass.symbolsNotPresentInBytecode(Definitions.scala:1596)
+        at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1652)
+        at scala.tools.nsc.Global$Run.<init>(Global.scala:1236)
+        at scala.tools.nsc.Driver.doCompile(Driver.scala:47)
+        at scala.tools.nsc.MainClass.doCompile(Main.scala:30)
+        at scala.tools.nsc.Driver.process(Driver.scala:68)
+        at scala.tools.nsc.Main.process(Main.scala)
+        at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at sbt.internal.inc.RawCompiler.getReporter$1(RawCompiler.scala:57)
+        at sbt.internal.inc.RawCompiler.apply(RawCompiler.scala:78)
+        at sbt_inc.CompilerBridgeFactory.getScala2CompilerBridgeJar(CompilerBridgeFactory.java:187)
+        at sbt_inc.CompilerBridgeFactory.getCompiledBridgeJar(CompilerBridgeFactory.java:60)
+        at sbt_inc.SbtIncrementalCompilers.make(SbtIncrementalCompilers.java:51)
+        at scala_maven.ScalaCompilerSupport.incrementalCompile(ScalaCompilerSupport.java:305)
+        at scala_maven.ScalaCompilerSupport.compile(ScalaCompilerSupport.java:119)
+        at scala_maven.ScalaCompilerSupport.doExecute(ScalaCompilerSupport.java:86)
+        at scala_maven.ScalaMojoSupport.execute(ScalaMojoSupport.java:310)
+        at scala_maven.ScalaCompileMojo.execute(ScalaCompileMojo.java:108)
+        at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+        at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+        at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+        at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+        at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+        at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+        at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+        at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+        at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.310 s
+[INFO] Finished at: 2025-05-18T17:39:35+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal net.alchim31.maven:scala-maven-plugin:4.9.5:compile (default) on project Research_Deequ: Execution default of goal net.alchim31.maven:scala-maven-plugin:4.9.5:compile failed.: CompileFailed -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
